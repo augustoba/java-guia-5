@@ -20,6 +20,7 @@ public class ejercicio10 {
             System.out.println("ingrese un numero");
             num2=read.nextInt();
             aux=aux+num2;
+            
         }
         
     }
