@@ -11,7 +11,7 @@ package ejercicios;
 
 import java.util.Scanner;
 
-public class ejercicio14 {
+public class Ejercicio14 {
 
    
           

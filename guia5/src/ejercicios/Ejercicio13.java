@@ -8,7 +8,7 @@ package ejercicios;
 
 import java.util.Scanner;
 
-public class ejercicio13 {
+public class Ejercicio13 {
 
    
     public static void main(String[] args) {

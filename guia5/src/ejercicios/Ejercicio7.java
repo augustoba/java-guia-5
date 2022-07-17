@@ -4,7 +4,7 @@
 package ejercicios;
 
 import java.util.Scanner;
-public class ejercicio7 {
+public class Ejercicio7 {
 
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);

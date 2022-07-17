@@ -4,7 +4,7 @@
 //la función Substring y equals() de Java.
 package ejercicios;
 import java.util.Scanner;
-public class ejercicio9 {
+public class Ejercicio9 {
 
    
     public static void main(String[] args) {
