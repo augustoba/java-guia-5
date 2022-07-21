@@ -12,11 +12,11 @@ public class Ejercicio10 {
 
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
-        Random aleatorio = new Random();
+        Random aleatorio = new Random();// se instancia random para poder aplicarlo en los numeros
         int numero1, numero2;
         double resultado, respuesta;
 
-        numero1 = aleatorio.nextInt(10) + 1;
+        numero1 = aleatorio.nextInt(10) + 1;//  se aplica random (10) es el numero max que pedimos + 1 es para que no salga 0
         numero2 = aleatorio.nextInt(10) + 1;
         System.out.println(numero1 + "\n" + numero2);
         do {

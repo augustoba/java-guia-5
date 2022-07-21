@@ -24,8 +24,8 @@ public class Ejercicio12 {
         numeroModificado="";
         contador="";
         for (int i = 0; i < 1000; i++) {
-            contador=""+i;
-            
+            contador=""+i; // al concatenar un string con un numero se convierte en string
+      
                 
             
             if (i<10){
@@ -41,7 +41,7 @@ public class Ejercicio12 {
                 contador=""+i;
                 //System.out.println(contador);
             }
-                   numeroModificado= contador.replace('3', 'E');
+                   numeroModificado= contador.replace('3', 'E');//replace reemplaza las letras que encuentra por la que se le pide
                    System.out.println(numeroModificado);
           
                 

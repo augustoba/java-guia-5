@@ -17,7 +17,7 @@ public class Ejercicio11 {
          cantidad=0;
                 
         while (num != 0) {
-            num = num / 10;
+            num = num / 10; // se divide en 10 el numero y cada vuelta que da es un digito
             cantidad++;
         }
         System.out.println("el numero tiene " + cantidad + " digito/s");

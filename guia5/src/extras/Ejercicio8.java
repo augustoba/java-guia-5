@@ -25,7 +25,7 @@ public class Ejercicio8 {
         
          if (num<0){
         break;
-    } else if (num%2==0) {
+    } else if (num%2==0) { // resto del numero
         numPar++;
         
           }  else {
