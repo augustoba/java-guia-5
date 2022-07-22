@@ -14,21 +14,16 @@ public class Ejercicio13 {
    
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
-        int alturaEscalera,aux;
-        
+        int alturaEscalera;
+        String aux;
         System.out.println("ingrese la altura de la escalera");
         alturaEscalera=read.nextInt();
         
-        
-        for (int i = 0; i < alturaEscalera-1; i++) {
-            aux=i+1;
-                  if (aux==1) {
-                      System.out.println(aux);
-                
-            }else{
-                      System.out.println(""+aux+(i+1));
-                  }
-                      
+        aux="";
+        for (int i = 0; i <= alturaEscalera-1; i++) {
+            aux=aux+(i+1);
+                 
+            System.out.println(aux);
                 
             
         }
